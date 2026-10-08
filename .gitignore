@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+airflow_venv/
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow.db-*
+logs/
+webserver_config.py
+*.pid
+
+# Data files
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.zip
+
+# Spark
+spark-warehouse/
+metastore_db/
+
+# Output
+output/*.csv
+output/*.json
+output/*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+.env
+*.key
+*.pem
+credentials.json
+service-account*.json
